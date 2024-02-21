@@ -1,0 +1,89 @@
+.card-add-loc {
+    box-shadow: 0px 4px 6px 0px #0000000D;
+    box-shadow: 0px 10px 15px -5px #0000001A;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+
+.top-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.top-add span {
+    color: #989EA7;
+    cursor: pointer;
+}
+
+.input-add {
+    display: grid;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-add input{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #989EA7;
+}
+
+.input-add label span {
+    color: #989EA7;
+}
+
+.input-add input:focus-visible {
+    border: 2px solid #33A6BA;
+    outline: none;
+}
+
+.input-add input:visited {
+    border: 2px solid black;
+}
+
+.input-add input.error {
+    border: 2px solid #FF7B92;
+}
+
+.input-add span.error {
+    color: #FF7B92;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.input-add span.error span.material-icons {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 52%;
+    transform: translateY(-50%);
+    color: #FF7B92;
+    font-size: 20px;
+}
+
+.contact-info {
+    margin: 35px 0 20px;
+    color: #33A6BA;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8EDF3;
+}
+
+button.submit-save {
+    background-color: #989EA7 !important;
+    color: white !important;
+    width: fit-content !important;
+    padding: 12px 20px !important;
+}
+
+button.submit-edit {
+    background-color: #33A6BA !important;
+    color: white !important;
+    width: fit-content !important;
+    padding: 10px 20px !important;
+}
+
+
